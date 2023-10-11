@@ -1,5 +1,5 @@
 [package]
-name = "uzers"
+name = "users"
 description = "Continuation of users, a library for accessing Unix users and groups"
 
 authors = ["Sandro-Alessio Gierens <sandro@gierens.de>", "Benjamin Sago <ogham@bsago.me>"]
@@ -10,7 +10,7 @@ exclude = [
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/rustadopt/uzers-rs"
-version = "0.11.3"
+version = "0.11.0"
 
 [features]
 default = ["cache", "mock", "logging"]
